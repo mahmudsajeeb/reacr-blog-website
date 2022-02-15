@@ -1,0 +1,52 @@
+.register{
+  
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://scontent.fdac136-1.fna.fbcdn.net/v/t39.30808-6/243029418_101567678962873_2434267324269826501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEfG5OxoKlLfs1E8hBnevfBpfaQvGb2kJCl9pC8ZvaQkM8N_SDtRTLtMbJLxX-aitV2fRd2Gb8pRvgnGmqanPHI&_nc_ohc=d7hP70CVwQ8AX-QbDXx&_nc_ht=scontent.fdac136-1.fna&oh=00_AT_nVh6aFuVGKO116qVMp2gcX_P-Ea7CdEKWQ1qVL3Zi0Q&oe=620DBE7E");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: calc(100vh - 50px);
+}
+.registerTitle{
+  font-size: 50px;
+}
+.registerForm{
+  display: flex;
+  margin-top: 10px ;
+  flex-direction: column;
+}
+.registerForm>label{
+  margin: 10px 0;
+}
+.inputLong{ 
+  background : #fff;
+  padding: 10px;
+  border: none;
+}
+.registerButton{
+  border: none;
+  background-color: aqua;
+  margin-top: 10px;
+  padding: 7px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.registerLogin{
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  display: flex;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(215, 49, 85);
+  color:#fff;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}

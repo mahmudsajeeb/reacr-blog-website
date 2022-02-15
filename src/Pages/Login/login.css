@@ -1,0 +1,47 @@
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://scontent.fdac136-1.fna.fbcdn.net/v/t39.30808-6/243029418_101567678962873_2434267324269826501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEfG5OxoKlLfs1E8hBnevfBpfaQvGb2kJCl9pC8ZvaQkM8N_SDtRTLtMbJLxX-aitV2fRd2Gb8pRvgnGmqanPHI&_nc_ohc=d7hP70CVwQ8AX-QbDXx&_nc_ht=scontent.fdac136-1.fna&oh=00_AT_nVh6aFuVGKO116qVMp2gcX_P-Ea7CdEKWQ1qVL3Zi0Q&oe=620DBE7E");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loginTitle{
+  font-size: 50px;
+}
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.loginForm>label{
+  margin: 10px 0 ;
+}
+.LoginInput{
+  padding: 10px;
+  border: none;
+  background: white;
+}
+.loginButton{
+  margin-top: 20px;
+  background-color: palevioletred;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+.loginRegister{
+  position: absolute;
+   top: 60px;
+   right: 20px;
+  display: flex;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  color:#fff;
+  padding: 10px;
+  border-radius: 10px;
+}
